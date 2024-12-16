@@ -85,7 +85,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
       </motion.div>
 
       <div className="w-full flex">
@@ -100,8 +100,6 @@ const Works = () => {
           and manage projects effectively.
         </motion.p>
       </div>
-
-      <p>Swipe right to see my projects</p>
 
       <div className="mt-20 flex flex-wrap justify-center gap-7">
         {projects.map((project, index) => (
