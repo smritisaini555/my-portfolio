@@ -23,7 +23,6 @@ import typescript from "./tech/typescript.png";
 import sass from "./tech/sass.png";
 import nextjs from "./tech/nextjs.png";
 import rtl from "./tech/rtl.jpg";
-import Jira  from "./tech/Jira.jpg";
 import Jest from "./tech/Jest.png";
 import AzureDevops from "./tech/AzureDevops.png";
 
@@ -58,7 +57,6 @@ export {
   git,
   html,
   AzureDevops,
-  Jira,
   javascript,
   mongodb,
   nodejs,
