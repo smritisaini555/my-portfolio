@@ -83,34 +83,34 @@ const technologies = [
     name: "Redux Toolkit",
     icon: redux,
   },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  // },
-  // {
-  //   name: "Node JS",
-  //   icon: nodejs,
-  // },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
-  // {
-  //   name: "Sass",
-  //   icon: sass,
-  // },
-  // {
-  //   name: "Next Js",
-  //   icon: nextjs,
-  // },
-  // {
-  //   name: "Git",
-  //   icon: git,
-  // },
-  // {
-  //   name: "React Testing Library",
-  //   icon: rtl,
-  // },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Sass",
+    icon: sass,
+  },
+  {
+    name: "Next Js",
+    icon: nextjs,
+  },
+  {
+    name: "Git",
+    icon: git,
+  },
+  {
+    name: "React Testing Library",
+    icon: rtl,
+  },
   // {
   //   name: "Jest",
   //   icon: Jest,
