@@ -1,5 +1,4 @@
 import { BrowserRouter } from "react-router-dom";
-
 import {
   About,
   Contact,
@@ -10,8 +9,23 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import { useEffect, useState } from "react";
 
 const App = () => {
+  const [showTech, setShowTech] = useState(true);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const isMediumScreen =
+        window.innerWidth >= 768 && window.innerWidth < 1024;
+      setShowTech(!isMediumScreen);
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <BrowserRouter>
       <div className="relative z-0 bg-primary">
@@ -21,7 +35,7 @@ const App = () => {
         </div>
         <About />
         <Experience />
-        <Tech />
+        {showTech && <Tech />}
         <Works />
         <div className="relative z-0">
           <Contact />
