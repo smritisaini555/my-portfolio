@@ -56,7 +56,7 @@ const About = () => {
         opportunities to grow and work alongside driven individuals on meaningful projects.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-5 md:gap-8 lg:gap-6 xl:gap-28'>
+      <div className='mt-20 flex flex-wrap gap-5 xs:justify-center md:gap-8 md:justify-center lg:gap-6 xl:gap-28'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}

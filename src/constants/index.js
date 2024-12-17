@@ -95,22 +95,22 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Sass",
-    icon: sass,
-  },
-  {
-    name: "Next Js",
-    icon: nextjs,
-  },
-  {
-    name: "Git",
-    icon: git,
-  },
-  {
-    name: "React Testing Library",
-    icon: rtl,
-  },
+  // {
+  //   name: "Sass",
+  //   icon: sass,
+  // },
+  // {
+  //   name: "Next Js",
+  //   icon: nextjs,
+  // },
+  // {
+  //   name: "Git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "React Testing Library",
+  //   icon: rtl,
+  // },
   // {
   //   name: "Jest",
   //   icon: Jest,
