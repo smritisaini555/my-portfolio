@@ -1,6 +1,7 @@
 import {
   mobile,
   backend,
+  aem_developer,
   web,
   javascript,
   typescript,
@@ -12,6 +13,7 @@ import {
   nodejs,
   mongodb,
   git,
+  infinite_logo,
   expandimo_logo,
   redSky_logo,
   sass,
@@ -22,6 +24,7 @@ import {
   savvypayment,
   webtruck,
   mobiletruck,
+  totalwireless
 } from "../assets";
 
 export const navLinks = [
@@ -52,10 +55,10 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
-  // {
-  //   title: "Content Creator",
-  //   icon: creator,
-  // },
+  {
+    title: "AEM Developer",
+    icon: aem_developer,
+  },
 ];
 
 const technologies = [
@@ -140,16 +143,29 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
+    title: "Front End Developer",
     company_name: "Expandimo Technology",
     icon: expandimo_logo,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "June 2021 - Jan 2025",
     points: [
       "Developed and maintained web applications using React.js and other related technologies.",
       "Collaborated with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implemented responsive design and ensuring cross-browser compatibility.",
       "Participated in code reviews and providing constructive feedback to other developers. Adaptability and a solution-driven mindset across all stages of development.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Infinite Computer Solutions",
+    icon: infinite_logo,
+    iconBg: "#E6DEDD",
+    date: "Jan 2025 - Present",
+    points: [
+      "Working as an AEM Developer, responsible for building and enhancing components within Adobe Experience Manager for the TotalWireless platform.",
+      "Developed reusable and scalable AEM components using Core JavaScript, HTML and SCSS, ensuring responsive and accessible designs.",
+      "Integrated AEM components with backend services via REST APIs to dynamically fetch and display data.",
+      "Actively contributing in debugging and resolving production issues, ensuring minimal downtime and smooth user experience.",
     ],
   },
 ];
@@ -274,6 +290,36 @@ const projects = [
     current: 'Ongoing (Mobile Application)',
     image: mobiletruck,
     source_code_link: "",
+  },
+  {
+    name: "TotalWireless",
+    description:
+      "Total Wireless is an affordable, no contract service that runs on Verizon’s 5G network!. Total Wireless is a prepaid wireless service provider that offers affordable plans for everyone. It operates on the Verizon network, with high-speed data access.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Sly",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AEM",
+        color: "green-text-gradient",
+      },
+    ],
+    current: '',
+    image: totalwireless,
+    source_code_link: "https://www.totalwireless.com/",
   },
 ];
 

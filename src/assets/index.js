@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import backend from "./backend.png";
+import aem_developer from "./aem_developer.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -26,6 +27,7 @@ import rtl from "./tech/rtl.jpg";
 import Jest from "./tech/Jest.png";
 import AzureDevops from "./tech/AzureDevops.png";
 
+import infinite_logo from "./company/infinite_computer_solutions_logo.jpg";
 import expandimo_logo from "./company/expandimo_logo.png";
 import redSky_logo from "./company/redSky-logo.jpg";
 
@@ -34,16 +36,19 @@ import atlashxm from "./atlashxm.png";
 import savvypayment from "./savvypayment.png";
 import webtruck from "./webtruck.png";
 import mobiletruck from "./mobiletruck.png";
+import totalwireless from "./totalwireless.png";
 
 export {
   logo,
   backend,
+  aem_developer,
   mobile,
   web,
   github,
   menu,
   close,
   sletter,
+  infinite_logo,
   expandimo_logo,
   redSky_logo,
   arrowright,
@@ -69,4 +74,5 @@ export {
   savvypayment,
   webtruck,
   mobiletruck,
+  totalwireless
 };
