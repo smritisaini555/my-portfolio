@@ -37,6 +37,8 @@ import savvypayment from "./savvypayment.png";
 import webtruck from "./webtruck.png";
 import mobiletruck from "./mobiletruck.png";
 import totalwireless from "./totalwireless.png";
+import straighttalk from "./straighttalk.png";
+import clinic from "./clinic.png";
 
 export {
   logo,
@@ -74,5 +76,7 @@ export {
   savvypayment,
   webtruck,
   mobiletruck,
-  totalwireless
+  totalwireless,
+  straighttalk,
+  clinic
 };

@@ -24,7 +24,9 @@ import {
   savvypayment,
   webtruck,
   mobiletruck,
-  totalwireless
+  totalwireless,
+  straighttalk,
+  clinic,
 } from "../assets";
 
 export const navLinks = [
@@ -320,6 +322,58 @@ const projects = [
     current: '',
     image: totalwireless,
     source_code_link: "https://www.totalwireless.com/",
+  },
+  {
+    name: "Straight Talk",
+    description:
+      "Straight Talk is a leading no-contract wireless provider offering affordable prepaid plans and manage prepaid subscriptions on America's most reliable 5G networks. Users can shop for the latest smartphones and enjoy unlimited high-speed data with no credit checks, hidden fees, or long-term contracts.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "AEM",
+        color: "blue-text-gradient",
+      },
+    ],
+    current: '',
+    image: straighttalk,
+    source_code_link: "https://www.straighttalk.com/",
+  },
+  {
+    name: "GDIC",
+    description:
+      "A full-stack web application built with React, Node.js, and MongoDB for Gurpreet Dental and Implant Centre. Key features include real-time appointment scheduling with automated email notifications (via Nodemailer), an SEO-optimized frontend, and a secure admin dashboard for managing clinic slots.",
+    tags: [
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node",
+        color: "blue-text-gradient",
+      },
+    ],
+    current: '',
+    image: clinic,
+    source_code_link: "https://www.gurpreetdentalandimplantcentre.com/",
   },
 ];
 
